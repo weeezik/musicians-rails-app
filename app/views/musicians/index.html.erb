@@ -1,14 +1,16 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Musicians</h1>
+<h1 class="text-lg">Musicians</h1>
 
 <div id="musicians">
   <% @musicians.each do |musician| %>
     <%= render musician %>
-    <p>
+    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
       <%= link_to "Show this musician", musician %>
-    </p>
+    </button>
   <% end %>
 </div>
 
-<%= link_to "New musician", new_musician_path %>
+<button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+      <%= link_to "New musician", new_musician_path %>
+</button>

@@ -65,6 +65,6 @@ class MusiciansController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def musician_params
-      params.require(:musician).permit(:genre, :daw, :experience)
+      params.require(:musician).permit(:genre, :daw, :experience, :attachment)
     end
 end
