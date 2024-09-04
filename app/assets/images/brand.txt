@@ -1,0 +1,13 @@
+https://colorhunt.co/palette/fabc3fe85c0dc7253e821131
+
+Yellow:
+#FABC3F
+
+Orange:
+#E85C0D
+
+Red:
+#C7253E
+
+Dark red:
+#821131
