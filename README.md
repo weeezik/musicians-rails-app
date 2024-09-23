@@ -1,4 +1,4 @@
-# README
+# Jamii
 Local deployment: http://localhost:3000/musicians/
 
 This README would normally document whatever steps are necessary to get the
