@@ -1,5 +1,9 @@
 # Jamii Landing Page
+
+<img src="app-photos/Landing Page.png">
+
 Landing page with Sign-in/Sign-up functionality.
+
 
 ## Specs
 * Ruby version: 3.2.2
